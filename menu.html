@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Browse today's sourdough, pastry, savoury bakes, and coffee at Crumb & Co."><title>Our Menu — Crumb & Co.</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script></head>
+<body>
+  <div class="top-note">Fresh from the oven, every morning · Find us in Portland, Oregon</div>
+  <header class="site-header"><div class="nav-wrap"><a class="wordmark" href="index.html">crumb &amp; co.<small>neighbourhood bakehouse</small></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button><nav class="nav-links" id="main-nav" aria-label="Main navigation"><a href="menu.html" aria-current="page">Our menu</a><a href="story.html">Our story</a><a href="journal.html">Field notes</a><a href="contact.html">Visit</a><a class="nav-order" href="index.html#order">Plan a pickup</a></nav></div></header>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Baked in small batches · prices in USD</p><h1>A menu that follows <em>the oven.</em></h1><p class="lede">Everything starts with good flour and a little patience. We bake what we can, sell what we bake, and start again tomorrow.</p></div></section>
+    <section class="section"><div class="container">
+      <nav class="menu-toolbar" aria-label="Hide items containing an allergen"><span class="eyebrow" style="margin:0 8px 0 0">Hide items with:</span><button class="filter-button" data-allergen="all" aria-pressed="true">Show all</button><button class="filter-button" data-allergen="G" aria-pressed="false">Gluten</button><button class="filter-button" data-allergen="M" aria-pressed="false">Milk</button><button class="filter-button" data-allergen="E" aria-pressed="false">Egg</button><button class="filter-button" data-allergen="N" aria-pressed="false">Nuts</button><button class="filter-button" data-allergen="S" aria-pressed="false">Sesame</button></nav>
+      <section class="menu-category" id="bread"><div class="category-heading"><h2>Slow bread</h2><span>From 7:00 · per loaf</span></div>
+        <article class="menu-item" data-contains="G"><div><h3>House country loaf</h3><p>Stone-milled wheat, a little rye, and an overnight rest. A good companion for the week.</p><span class="allergens">G</span></div><span class="price">$9</span></article>
+        <article class="menu-item" data-contains="G"><div><h3>Seeded hearth loaf</h3><p>Wholegrain dough rolled in toasted sunflower, pumpkin, and flax seeds.</p><span class="allergens">G · S</span></div><span class="price">$11</span></article>
+        <article class="menu-item" data-contains="G, N"><div><h3>Hazelnut &amp; raisin</h3><p>A darker sourdough with toasted Oregon hazelnuts and plump golden raisins.</p><span class="allergens">G · N</span></div><span class="price">$13</span></article>
+        <article class="menu-item" data-contains="G"><div><h3>Crusty little baguette</h3><p>Thin, crisp crust and a tender middle. Best eaten on the walk home.</p><span class="allergens">G</span></div><span class="price">$4</span></article>
+      </section>
+      <section class="menu-category" id="pastry"><div class="category-heading"><h2>Butter &amp; layers</h2><span>From 8:30 · per piece</span></div>
+        <article class="menu-item" data-contains="G, M, E"><div><h3>Butter croissant</h3><p>Made with cultured butter and folded over three unhurried days.</p><span class="allergens">G · M · E</span></div><span class="price">$4</span></article>
+        <article class="menu-item" data-contains="G, M, E"><div><h3>Chocolate morning roll</h3><p>Dark chocolate tucked into our flaky dough with a pinch of flaky salt.</p><span class="allergens">G · M · E</span></div><span class="price">$5</span></article>
+        <article class="menu-item" data-contains="G, M, E, N"><div><h3>Almond cloud</h3><p>Yesterday's croissant, reborn with frangipane, sliced almonds, and syrup.</p><span class="allergens">G · M · E · N</span></div><span class="price">$6</span></article>
+        <article class="menu-item" data-contains="G, M, E"><div><h3>Cardamom knot</h3><p>Soft, spiced, and brushed with orange-scented syrup while still warm.</p><span class="allergens">G · M · E</span></div><span class="price">$5</span></article>
+      </section>
+      <section class="menu-category" id="savoury"><div class="category-heading"><h2>For the savoury ones</h2><span>From 11:30</span></div>
+        <article class="menu-item" data-contains="G"><div><h3>Rosemary garden focaccia</h3><p>Olive oil, flaky salt, and rosemary from our neighbour's garden.</p><span class="allergens">G</span></div><span class="price">$7</span></article>
+        <article class="menu-item" data-contains="G, M"><div><h3>Cheddar &amp; scallion scone</h3><p>Sharp local cheddar and sweet green onion; lovely with a bowl of soup.</p><span class="allergens">G · M</span></div><span class="price">$5</span></article>
+        <article class="menu-item" data-contains="G, M, E"><div><h3>Seasonal hand pie</h3><p>Flaky pastry filled with whatever looks good at the farmers' market.</p><span class="allergens">G · M · E</span></div><span class="price">$8</span></article>
+      </section>
+      <section class="menu-category" id="sweet"><div class="category-heading"><h2>Something sweet</h2><span>After noon</span></div>
+        <article class="menu-item" data-contains="G, M, E"><div><h3>Olive oil &amp; lemon cake</h3><p>Tender crumb, bright citrus, and a generous snowfall of sugar.</p><span class="allergens">G · M · E</span></div><span class="price">$6</span></article>
+        <article class="menu-item" data-contains="M, E"><div><h3>Brown butter custard tart</h3><p>Vanilla custard in a crisp shell, with a toasty, burnished top.</p><span class="allergens">G · M · E</span></div><span class="price">$7</span></article>
+      </section>
+      <p class="allergen-note"><strong>A note on allergens:</strong> Our kitchen handles wheat, dairy, eggs, nuts, and sesame. We do our best to avoid cross-contact, but cannot guarantee any item is allergen-free. Please ask our team before ordering.</p>
+    </div></section>
+  </main>
+  <footer class="site-footer" data-footer-reveal><div class="container">
+    <div class="footer-masthead"><div><p class="eyebrow">Good bread. Good company.</p><p class="footer-display">A little warmth, straight from <em>our oven.</em></p></div><a class="footer-top-link" href="#">Back to the top <span aria-hidden="true">↑</span></a></div>
+    <div class="footer-grid">
+      <div class="footer-brand"><a class="wordmark" href="index.html">crumb &amp; co.<small>neighbourhood bakehouse</small></a><p>Small-batch bread, slow mornings, and a place at the table. Baked with care in Portland, Oregon.</p></div>
+      <section class="footer-signup" aria-labelledby="footer-signup-menu"><h3 id="footer-signup-menu">A note from the oven</h3><p>Seasonal bakes and the occasional good thing, fresh from our kitchen.</p><form class="subscribe"><label class="footer-field-label" for="footer-email-menu">Email address</label><input id="footer-email-menu" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">→</button></form><p class="form-note" aria-live="polite"></p></section>
+      <div class="footer-column"><h3>Find your way</h3><a href="menu.html" aria-current="page">Our menu</a><a href="story.html">Our story</a><a href="journal.html">Field notes</a><a href="contact.html">Visit &amp; contact</a></div>
+      <div class="footer-column"><h3>Come on in</h3><p>2843 SE Hawthorne Blvd<br>Portland, OR 97214</p><ul class="footer-hours"><li><span>Tue–Fri</span><span>7 am–3 pm</span></li><li><span>Sat–Sun</span><span>8 am–2 pm</span></li><li><span>Monday</span><span>Closed</span></li></ul><a href="mailto:hello@crumbandco.example">Say hello ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-year></span> Crumb &amp; Co. Bakehouse</span><span>Portland, Oregon · Baked with care, shared with you.</span></div>
+  </div></footer>
+</body></html>

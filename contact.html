@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="Visit Crumb & Co. in Portland, check our hours, or plan a bakery pickup."><title>Visit & Contact — Crumb & Co.</title><link rel="stylesheet" href="styles.css"><script src="script.js" defer></script></head>
+<body>
+  <div class="top-note">Fresh from the oven, every morning · Find us in Portland, Oregon</div>
+  <header class="site-header"><div class="nav-wrap"><a class="wordmark" href="index.html">crumb &amp; co.<small>neighbourhood bakehouse</small></a><button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">Menu</button><nav class="nav-links" id="main-nav" aria-label="Main navigation"><a href="menu.html">Our menu</a><a href="story.html">Our story</a><a href="journal.html">Field notes</a><a href="contact.html" aria-current="page">Visit</a><a class="nav-order" href="#pickup">Plan a pickup</a></nav></div></header>
+  <main>
+    <section class="page-hero"><div class="container"><p class="eyebrow">Our door is open</p><h1>Good things are <em>around the corner.</em></h1><p class="lede">Come by for a loaf, stay for a coffee. We're on Hawthorne, a few doors from the little plant shop.</p></div></section>
+    <section class="section"><div class="container contact-grid">
+      <div><p class="eyebrow">Get in touch</p><h2>Let's talk bread.</h2><p class="lede">Have a question, planning something special, or just want to say hi? We're happy to hear from you.</p><div class="contact-list">
+        <div class="contact-item"><span>Call the bakehouse</span><a href="tel:+15035550142">(503) 555-0142</a></div>
+        <div class="contact-item"><span>Send a note</span><a href="mailto:hello@crumbandco.example">hello@crumbandco.example</a></div>
+        <div class="contact-item"><span>Find us</span><strong>2843 SE Hawthorne Blvd<br>Portland, OR 97214</strong></div>
+      </div></div>
+      <div><p class="eyebrow">At the counter</p><h2>Come on in.</h2><div class="shop-grid" style="grid-template-columns:1fr">
+        <article class="shop-card"><h3>Hawthorne Bakehouse</h3><p>2843 SE Hawthorne Blvd<br>Portland, Oregon 97214</p><p><a class="text-link" target="_blank" rel="noreferrer" href="https://maps.google.com/?q=2843+SE+Hawthorne+Blvd+Portland+OR">Get directions ↗</a></p><div class="hours"><p><strong>Tuesday–Friday</strong> &nbsp; 7:00 am – 3:00 pm</p><p><strong>Saturday–Sunday</strong> &nbsp; 8:00 am – 2:00 pm</p><p><strong>Monday</strong> &nbsp; Closed, resting the starter</p></div></article>
+      </div></div>
+    </div></section>
+    <section class="section" id="pickup" style="padding-top:0"><div class="container contact-grid">
+      <div><p class="eyebrow">A little something set aside</p><h2>Plan a pickup.</h2><p class="lede">For a few loaves or a whole table, send us the details at least a day ahead. We'll confirm by email.</p></div>
+      <form class="order-form" data-order-form>
+        <div class="field"><label for="name">Your name</label><input id="name" name="name" autocomplete="name" required></div>
+        <div class="field"><label for="email">Email address</label><input id="email" name="email" type="email" autocomplete="email" required></div>
+        <div class="field"><label for="date">Pickup date</label><input id="date" name="date" type="date" required></div>
+        <div class="field"><label for="order-type">What are you planning?</label><select id="order-type" name="order-type"><option>Everyday bread</option><option>Pastry box</option><option>Celebration cake</option><option>Something else</option></select></div>
+        <div class="field full"><label for="details">A few details</label><textarea id="details" name="details" placeholder="How many people? Any favourite bakes?"></textarea></div>
+        <div class="field full"><button class="button" type="submit">Send a pickup request <span>→</span></button><p class="form-note" aria-live="polite"></p></div>
+      </form>
+    </div></section>
+    <section class="section" style="padding-top:0"><div class="container"><p class="eyebrow">A few common questions</p><h2>At the counter.</h2>
+      <details class="faq-item"><summary>Can I reserve a loaf?</summary><p>Absolutely. Give us a call or use the pickup form, ideally by the day before. We set aside a small number of loaves for regulars.</p></details>
+      <details class="faq-item"><summary>Do you have gluten-free bread?</summary><p>Our kitchen works with wheat flour all day, so we can't promise a gluten-free environment. Please speak with us before ordering if you have an allergy.</p></details>
+      <details class="faq-item"><summary>What happens to the bread at the end of the day?</summary><p>We share extra loaves with a nearby community fridge. Good bread should find a good home.</p></details>
+    </div></section>
+  </main>
+  <footer class="site-footer" data-footer-reveal><div class="container">
+    <div class="footer-masthead"><div><p class="eyebrow">Good bread. Good company.</p><p class="footer-display">A little warmth, straight from <em>our oven.</em></p></div><a class="footer-top-link" href="#">Back to the top <span aria-hidden="true">↑</span></a></div>
+    <div class="footer-grid">
+      <div class="footer-brand"><a class="wordmark" href="index.html">crumb &amp; co.<small>neighbourhood bakehouse</small></a><p>Small-batch bread, slow mornings, and a place at the table. Baked with care in Portland, Oregon.</p></div>
+      <section class="footer-signup" aria-labelledby="footer-signup-contact"><h3 id="footer-signup-contact">A note from the oven</h3><p>Seasonal bakes and the occasional good thing, fresh from our kitchen.</p><form class="subscribe"><label class="footer-field-label" for="footer-email-contact">Email address</label><input id="footer-email-contact" type="email" placeholder="Your email address" required><button type="submit" aria-label="Subscribe">→</button></form><p class="form-note" aria-live="polite"></p></section>
+      <div class="footer-column"><h3>Find your way</h3><a href="menu.html">Our menu</a><a href="story.html">Our story</a><a href="journal.html">Field notes</a><a href="contact.html" aria-current="page">Visit &amp; contact</a></div>
+      <div class="footer-column"><h3>Come on in</h3><p>2843 SE Hawthorne Blvd<br>Portland, OR 97214</p><ul class="footer-hours"><li><span>Tue–Fri</span><span>7 am–3 pm</span></li><li><span>Sat–Sun</span><span>8 am–2 pm</span></li><li><span>Monday</span><span>Closed</span></li></ul><a href="mailto:hello@crumbandco.example">Say hello ↗</a></div>
+    </div>
+    <div class="footer-bottom"><span>© <span data-year></span> Crumb &amp; Co. Bakehouse</span><span>Portland, Oregon · Baked with care, shared with you.</span></div>
+  </div></footer>
+</body></html>
